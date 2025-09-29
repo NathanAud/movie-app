@@ -17,7 +17,7 @@ if (env.gitlabBranch != null) {
 }
 
 pipeline {
-    agent { label 'main' }
+    agent any
     
     environment {
         IMAGE_NAME = "jdt16-nathan"
@@ -29,18 +29,6 @@ pipeline {
 
     stages {
 
-        stage('Code Release') {
-            steps {
-
-                script {
-                showTraceLog()
-
-                }
-
-                git branch: "${gitlabBranch}", credentialsId: 'nathan', url: "${gitlabSourceRepoHttpUrl}"
-            }
-        }
-                        
                 stage('Docker Build Image') {
             steps {
                                 script {
