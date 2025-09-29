@@ -27,14 +27,14 @@ export const routes = createBrowserRouter([
             element: <DetailScreen />,
             path: "/detail/:movieId",
           },
-          // {
-          //   element: <ProductScreen />,
-          //   path: "/product",
-          // },
-          // {
-          //   element: <SearchScreen />,
-          //   path: "/search",
-          // },
+          {
+            element: <ProductScreen />,
+            path: "/product",
+          },
+          {
+            element: <SearchScreen />,
+            path: "/search",
+          },
         ],
       },
     ],
