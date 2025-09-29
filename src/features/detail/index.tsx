@@ -7,7 +7,6 @@ import { Ratings } from "../../components/ratings";
 import { CreditsDetail } from "../../components/movieCredits";
 import { useReleaseDate } from "../../hooks/movie/useReleaseDate";
 import { PlayButton } from "../../components/playButton";
-import { useEffect, useMemo } from "react";
 import { Button } from "../../components/button";
 import { useVideos } from "../../hooks/movie/useVideos";
 

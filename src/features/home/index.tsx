@@ -1,7 +1,6 @@
 import { usePopularMovie } from "../../hooks/movie/usePopular";
 import { Carousel } from "../../components/carousel";
 import { useTopRatedMovie } from "../../hooks/movie/useTopRated";
-import { useMemo } from "react";
 
 const HomeScreen = () => {
   const { popularMovie } = usePopularMovie();

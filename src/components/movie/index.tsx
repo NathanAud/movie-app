@@ -1,6 +1,6 @@
 import { Card } from "../card";
 import type { Movie } from "../../services/movie";
-import { Link, useNavigate } from "react-router";
+import { Link } from "react-router";
 import { Ratings } from "../ratings";
 
 interface Props {

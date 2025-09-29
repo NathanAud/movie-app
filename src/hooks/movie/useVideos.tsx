@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import type { Video } from "../../services/movie/type";
-import { getPopular } from "../../services/movie";
 import { getVideos } from "../../services/movie/api";
 
 export const useVideos = (movieId: number) => {

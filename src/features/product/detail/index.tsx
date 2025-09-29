@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useQuery } from "../../../hooks/useQuery";
 import { useDetail } from "../../../hooks/product/useDetail";
 import { useForm } from "react-hook-form";

@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "../../../components/button";
 import CustomTable from "../../../components/table";
 import { useProducts } from "../../../hooks/product/useProducts";
@@ -8,7 +7,7 @@ import { useNavigate } from "react-router";
 
 const List = () => {
   const navigate = useNavigate();
-  const { products, fetchData } = useProducts();
+  const { products } = useProducts();
   const columns = [
     {
       header: "Title",
